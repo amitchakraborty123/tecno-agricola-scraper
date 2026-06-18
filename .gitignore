@@ -42,7 +42,7 @@ output/*
 
 # Ignore contents of sample_output/ except the committed CSV
 sample_output/*
-!sample_output/sample_products.csv
+!sample_output/Products_Data.csv
 
 # Ignore loose CSV/data files anywhere else in the project
 *.csv
