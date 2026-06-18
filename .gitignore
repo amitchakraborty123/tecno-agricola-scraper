@@ -1,7 +1,6 @@
 # ============================================================
-#  .gitignore
+#  .gitignore — Python Scraping / Bot / Automation Projects
 # ============================================================
-
 
 # ----- Python -----
 __pycache__/
@@ -16,7 +15,6 @@ dist/
 MANIFEST
 site/
 
-
 # ----- Virtual Environments -----
 venv/
 .venv/
@@ -25,7 +23,6 @@ env/
 ENV/
 venv.bak/
 .python-version
-
 
 # ----- Environment Variables & Secrets -----
 .env
@@ -38,23 +35,27 @@ cookies.json
 *.pem
 *.key
 
-
-# ----- Scraped Output (runtime data — never commit) -----
-output/
+# ----- Scraped Output -----
+# Ignore contents of output/, but keep the folder via .gitkeep
+output/*
 !output/.gitkeep
+
+# Ignore contents of sample_output/ except the committed CSV
+sample_output/*
+!sample_output/sample_products.csv
+
+# Ignore loose CSV/data files anywhere else in the project
 *.csv
 *.json
 *.xlsx
 *.xml
-!sample_output/
-
 
 # ----- Logs -----
-logs/
+# Ignore contents of logs/, but keep the folder via .gitkeep
+logs/*
 !logs/.gitkeep
 *.log
 *.log.*
-
 
 # ----- Database & Cache -----
 *.db
@@ -66,7 +67,6 @@ cache/
 *.pkl
 *.pickle
 
-
 # ----- Proxy / Session / Browser Artifacts -----
 selenium_profiles/
 chromedriver
@@ -77,11 +77,8 @@ playwright-browsers/
 user_data/
 profiles/
 
-
-# ----- Jupyter Notebooks (if used for analysis) -----
+# ----- Jupyter Notebooks -----
 .ipynb_checkpoints/
-*.ipynb
-
 
 # ----- Testing -----
 .pytest_cache/
@@ -92,59 +89,42 @@ htmlcov/
 coverage.xml
 *.cover
 
-
 # ----- Type Checking -----
 .mypy_cache/
 .dmypy.json
 .pyright/
 pyrightconfig.json
 
-
 # ----- IDEs & Editors -----
-# VS Code
 .vscode/
 !.vscode/extensions.json
-
-# PyCharm / JetBrains
 .idea/
 *.iml
 *.iws
 *.ipr
-
-# Sublime Text
 *.sublime-project
 *.sublime-workspace
-
-# Vim / Emacs
 *.swp
 *.swo
 *~
 \#*\#
 .\#*
 
-
 # ----- OS Generated -----
-# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Windows
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 *.lnk
-
-# Linux
 .Trash-*
 
-
-# ----- Docker (if you ever containerise a bot) -----
+# ----- Docker -----
 .dockerenv
 docker-compose.override.yml
-
 
 # ----- Misc -----
 *.bak
