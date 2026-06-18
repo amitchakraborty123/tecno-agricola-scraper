@@ -41,8 +41,8 @@ output/*
 !output/.gitkeep
 
 # Ignore contents of sample_output/ except the committed CSV
-sample_output/*
-!sample_output/Products_Data.csv
+!sample_output/
+!sample_output/*
 
 # Ignore loose CSV/data files anywhere else in the project
 *.csv
