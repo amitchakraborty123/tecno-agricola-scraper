@@ -132,7 +132,7 @@ I'm a Data Analyst passionate about turning raw web data into clean, usable data
 
 📧 **Email:** mr.amitc55@gmail.com
 💻 **GitHub:** [@amitchakraborty123](https://github.com/amitchakraborty123)
-🔗 **LinkedIn:** [Amit Chakraborty](https://www.linkedin.com/in/mr-amit-chakraborty/)
+🔗 **LinkedIn:** [Amit Chakravarti](https://www.linkedin.com/in/mr-amit-chakraborty/)
 
 ---
 
