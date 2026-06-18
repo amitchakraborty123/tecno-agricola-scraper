@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tecno-agricola-scraper"
+version = "1.0.0"
+description = "Scrape Tecno Agricola products."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+authors = [
+    {name = "Amit Chakravarti", email="me.amitchakravarti@gmail.com"}
+]
+
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "lxml>=5.3.0",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "ruff>=0.5",
+    "black>=24.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
