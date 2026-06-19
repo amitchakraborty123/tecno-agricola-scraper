@@ -130,8 +130,8 @@ Distributed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 I'm a Data Analyst passionate about turning raw web data into clean, usable datasets.
 
-📧 **Email:** me.amitchakravarti@gmail.com
-💻 **GitHub:** [@amitchakraborty123](https://github.com/amitchakraborty123)
+📧 **Email:** me.amitchakravarti@gmail.com<br>
+💻 **GitHub:** [@amitchakraborty123](https://github.com/amitchakraborty123)<br>
 🔗 **LinkedIn:** [Amit Chakravarti](https://www.linkedin.com/in/mr-amit-chakraborty/)
 
 ---
